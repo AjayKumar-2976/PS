@@ -10,6 +10,7 @@
 <body>
 
 </body>
+
 <script>
     
     const movieType = prompt("Enter the movie Type: ").toLowerCase();
@@ -18,24 +19,24 @@
     switch (movieType) {
         case "action":
             switch (seatType) {
-                case "Standard Seat": console.log(`For ${seatType} the Charge is : 10rs`); break;
+                case "standardseat": console.log(`For ${seatType} the Charge is : 10rs`); break;
 
-                case "VIPSeat": console.log(`For ${seatType} the Charge is : 20rs`); break;
+                case "vipseat": console.log(`For ${seatType} the Charge is : 20rs`); break;
             }
             break;
 
         case "comedy":
             switch (seatType) {
-                case "Standard Seat": console.log(`For ${seatType} the Charge is : 8rs`); break;
+                case "standardseat": console.log(`For ${seatType} the Charge is : 8rs`); break;
 
-                case "VIPSeat": console.log(`For ${seatType} the Charge is : 15rs`); break;
+                case "vipSeat": console.log(`For ${seatType} the Charge is : 15rs`); break;
             }
             break;
 
         case "drama":
             switch (seatType) {
-                case "Standard Seat": console.log(`For ${seatType} the Charge is : 6rs`); break;
-                case "VIPSeat": console.log(`For ${seatType} the Charge is : 12rs`); break;
+                case "standardseat": console.log(`For ${seatType} the Charge is : 6rs`); break;
+                case "vipSeat": console.log(`For ${seatType} the Charge is : 12rs`); break;
             }
 
             break;
@@ -71,7 +72,6 @@
             }
             break;
     }
-
 
 
 const travellcategory = prompt("enter the category").toLowerCase()
